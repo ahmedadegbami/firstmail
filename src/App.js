@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Hello from "./component/Hello";
+// import Hello from "./component/Hello";
+import WelcomeClass from "./component/WecomeClass";
+
 function App() {
   return (
     <div className="App">
@@ -9,9 +11,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Hello firstP="Saka" SecondP="Kenneth" />
+        <WelcomeClass firstP="Saka" SecondP="Kenneth" />
         <br></br>
-        <Hello />
+        <WelcomeClass />
         <a
           className="App-link"
           href="https://reactjs.org"

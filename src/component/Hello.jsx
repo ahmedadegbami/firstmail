@@ -1,10 +1,10 @@
 import SecondHello from "./SecondHello";
 
-const Hello = (prop) => (
+const Hello = ({ SecondP, firstP }) => (
   <>
     <p>
-      {prop.SecondP}
-      {prop.firstP}
+      {SecondP}
+      {firstP}
     </p>
     <p>gggggg </p>
     <SecondHello greeting="Good Night" />
