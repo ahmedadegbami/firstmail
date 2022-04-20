@@ -13,7 +13,7 @@ function App() {
         </p>
         <WelcomeClass firstP="Saka" SecondP="Kenneth" />
         <br></br>
-        <WelcomeClass />
+        <WelcomeClass color="red" />
         <a
           className="App-link"
           href="https://reactjs.org"
